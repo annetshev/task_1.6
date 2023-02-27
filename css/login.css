@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ba43c1;
+    border-bottom: 3px solid #e5df35;
+}
+.logo_text {
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+.logo_text h3 {
+    text-indent: 35px;
+    color: #ffffff;
+}
+.auth {
+
+}
+.auth a {
+    color: black;
+    padding: 10px;
+    line-height: 70px;
+    font-size: 20px;
+}
+.cercle{
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer{
+    padding: 5px;
+
+}
+.footer{
+    margin-top: 390px;
+}
