@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/git_comands.css">
+    <title>Словник</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo_text">
+            <h1>Мій особистий блог</h1>
+            <h3>Шевченко Анна</h3>
+        </div>
+        <div class="auth">
+            <a href="/index.html">Головна</a>
+            <a href="/registr.html">Реєстрація</a>
+        </div>
+    </div> 
+
+    <div class="commands-row">
+        <div class="column">
+            <h5 style="color: rgb(239, 152, 152); font-size: 1.5em;">Create a Repository</h5>
+            <p id="one">From scratch - Create a new local repository</p>
+            <p id="two">§ git init (project name)</p>
+            <p id="one">Download from an existing repository</p>
+            <p id="two"> § git clone my_url</p>
+            <h5 style="color: rgb(142, 142, 56); font-size: 1.5em;">Observe your Repository</h5>
+            <p id="one">List new or modified files not yet committed</p>
+            <p id="two"> § git status</p>
+            <p id="one">Show the changes to files not yet staged</p>
+            <p id="two">§ git ditt</p>
+            <p id="one">Show the changes to staged files</p>
+            <p id="two">§ git diff --cached</p>
+            <p id="one">Show all staged and unstaged file changes</p>
+            <p id="two">§ git dift HEAD</p>
+            <p id="one">Show the changes between two commit ids</p>
+            <p id="two">§ git diff commitl commit2</p>
+            <p id="one">List the change dates and authors for a fie </p>
+            <p id="two">$ git blame (fle)</p>
+            <p id="one">Show the file changes for a commit id and/or fie</p>
+            <p id="two">& git show (commit): (file)</p>
+            <p id="one">Show full change history</p>
+            <p id="two">§ git log</p>
+            <p id="one">Show change history for file/directory inclucing diffs</p>
+            <p id="two">§ git log -p (file/directory)</p>
+        </div>
+        <div class="column">
+            <h5 style="color: rgb(234, 119, 213); font-size: 1.5em;">Working with Branches</h5>
+            <p id="one">List all local branches</p>
+            <p id="two">§ git branch</p>
+            <p id="one">List all branches, local and remote</p>
+            <p id="two">§ git branch -av</p>
+            <p id="one">Switch to a branch, my_branch, and update working directory </p>
+            <p id="two">§ git checkout my_branch</p>
+            <p id="one">Create a new branch called new_branch</p>
+            <p id="two">§ git branch new branch</p>
+            <p id="one">Delete the branch called my_branch</p>
+            <p id="two">§ git branch -d my_branch</p>
+            <p id="one">Merge branch_a into branch_b</p>
+            <p id="two">§ git checkout branch b & git merge branch_a</p>
+            <p id="one">Tag the current commit</p>
+            <p id="two">§ git tag my_tag</p>
+
+        </div>
+        <div class="column">
+            <h5 style="color: rgb(100, 109, 228); font-size: 1.5em;">Make a change</h5>
+            <p id="one">Stages the file, ready for commit </p>
+            <p id="two"> & git add (fle)</p>
+            <p id="one"> Stage all changed files, ready for commit</p>
+            <p id="two"> § git add</p>
+            <p id="one"> Commit all staged files to versioned history</p>
+            <p id="two"> § git commit -a "comit message"</p>
+            <p id="one">Commit all your tracked files to versioned history</p>
+            <p id="two"> § git commit -an "comnit message"</p>
+            <p id="one">Unstages file, keeping the file changes </p>
+            <p id="two"> $ git reset (file)</p>
+            <p id="one"> Revert everything to the last commit</p>
+            <p id="two"> § git reset --hard</p>
+        </div>
+        <div class="column">
+            <h5 style="color: aqua; font-size: 1.5em;">Synchronize</h5>
+            <p id="one"> Get the latest changes from origin (no merge)</p>
+            <p id="two"> § git fetch</p>
+            <p id="one"> Fetch the latest changes from origin and merge</p>
+            <p id="two"> § git pull</p>
+            <p id="one"> Fetch the latest changes from crigin and rebase</p>
+            <p id="two"> $ git pull --rebase</p>
+            <p id="one"> Push local changes to the origin</p>
+            <p id="two"> § git push</p>
+            <h5 style="color: rgb(120, 214, 125); font-size: 1.5em;">Finally!</h5>
+            <p id="one"> When in doubt, use git help</p>
+            <p id="two"> § git command --help</p>
+            <h2 >Or visit <a  href="https://training.github.com/">https://training.github.com/</a> <br>for official GitHub training.</h3>
+        </div>
+      </div>
+
+    
+</div>
+
+        <footer>
+            <p> &copy Всі права захищені. Розробник: курсант 202 навчальної групи Шевченко А.О.</p>
+        </footer>
+</body>
+</html>
+    </div>
+    
+</body>
+</html>
